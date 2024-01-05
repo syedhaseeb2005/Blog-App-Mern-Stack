@@ -1,0 +1,80 @@
+.SinglePost{
+    flex: 9;
+}
+.singlePostWrapper{
+    padding: 20px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+}
+.singlePostImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.singlePostTitle{
+    text-align: center;
+    margin: 10px;
+    font-family: "Lora" , sans-serif;
+    font-size: 28px;
+}
+.singlePostTitleInput{
+    margin: 10px;
+    font-size: 28px;
+    outline: none;
+    font-family: "Lora" , sans-serif;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    color: #666;
+}
+.signlePostEdit{
+    float: right;
+}
+.singlePostIcon{
+    cursor: pointer;
+    margin-left: 10px;
+}
+.singlePostIcon:first-child{
+    color: teal;
+}
+.singlePostIcon:last-child{
+    color: tomato;
+}
+.singlePostInfo{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #b39656;
+    font-family: "Varela Rounded" , sans-serif;
+}
+.singlePostDesc{
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.singlePostDescInput{
+    border: none;
+    outline: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+}
+.singlePostDesc::first-letter{
+    margin-left: 20px;
+    font-size: 30px;
+    min-width: 600px;
+    font-weight: 600;
+}
+.singlePostUpdateBtn{
+    border: none;
+    background-color: teal;
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 5px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin-top: 20px;
+}
